@@ -75,7 +75,7 @@ body {
 	padding-right: 15px;
 	padding-left: 15px;
 	@include center-block();
-	background-color: $white;
+	background-color: rgba(0, 0, 0, 0.25);
 	color: $color_shark;
 	z-index: 1;
 	border-radius: 3px;
@@ -104,8 +104,8 @@ body {
 	width: 75%;
 	max-width: 850px;
 	margin: 4rem auto;
-	background: $white;
-	color: $color_tuatara;
+	background: rgba(0, 0, 0, 0.5);
+	color: $success;
 	padding: 2em;
 	border-radius: 3px;
 	box-shadow: 0 0 10px 0 rgba($color_shark,0.3);
@@ -219,4 +219,12 @@ header .entry-meta {
         background-blend-mode: multiply;
         background-position: center center;
     }
+}
+
+p {
+	color: $success;
+}
+
+a {
+	color: $success;
 }
